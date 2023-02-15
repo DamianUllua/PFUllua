@@ -1,3 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: always;
+    src: url(../fonts/Always.otf);
+}
+
 .navlogo {
     width: 80px;
 }
@@ -13,9 +23,15 @@
 }
 
 i {
-    color: #9f86c0;
+    color: #9972cb;
     font-size: 1.4rem;
     padding: 10px;
+}
+
+h2 {
+    padding-top: 20px;
+    font-size: 3rem;
+    text-align: center;
 }
 
 h3 {
@@ -24,6 +40,61 @@ h3 {
 
 }
 
-footer {
-    background-color: bisque;
+.fontAlways {
+    font-family: always, sans-serif;
 }
+
+footer {
+    background-color: rgb(255, 220, 177);
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.fondo {
+    background-image: url(/images/fondoenc.jpg);
+
+}
+
+.botonWhatsApp img {
+    width: 70px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.borde {
+    box-sizing: border-box;
+    background-color: #e0b1cb;
+    width: max-content;
+    padding: 1rem;
+    margin: auto;
+    border-radius: 200px;
+}
+
+@media (max-width: 767px) {
+    p {
+        font-size: 0.8rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    .borde {
+        padding: 0.5rem;
+    }
+}
+
+.contenedorImg {
+    display: flex;
+    justify-content: center;
+}
+
+.img1 {
+    width: 350px;
+    height: 250px;
+    margin-inline: 20px;
+}
+
