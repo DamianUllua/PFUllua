@@ -85,6 +85,12 @@ p {
     .borde {
         padding: 0.5rem;
     }
+
+    .contenedorImg {
+        display: flex;
+        justify-content: center;
+    }
+
 }
 
 .contenedorImg {
@@ -96,5 +102,17 @@ p {
     width: 350px;
     height: 250px;
     margin-inline: 20px;
+}
+
+@media (max-width: 505px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .borde {
+        padding: 0.5rem;
+    }
+
+    
 }
 
