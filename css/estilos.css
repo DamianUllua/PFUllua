@@ -8,8 +8,13 @@
     src: url(../fonts/Always.otf);
 }
 
+nav {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
 .navlogo {
-    width: 80px;
+    width: 90px;
 }
 
 .bgnavbar {
@@ -22,39 +27,58 @@
     justify-content: center;
 }
 
+.carru {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 i {
     color: #9972cb;
     font-size: 1.4rem;
     padding: 10px;
 }
 
-h2 {
+h1 {
     padding-top: 20px;
     font-size: 3rem;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 2rem;
+    padding-top: 20px;
+    font-size: 2.4rem;
     text-align: center;
 }
 
 h3 {
     font-size: 0.7rem;
     text-align: center;
-
 }
 
 .fontAlways {
     font-family: always, sans-serif;
 }
 
+body {
+    background-color: #9f86c0;
+    background-image: url(../images/fondoenc.jpg);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
 footer {
     background-color: rgb(255, 220, 177);
+    text-align: center;
+    margin-top: auto;
 }
 
 p {
-    margin-bottom: 0;
-}
-
-.fondo {
-    background-image: url(/images/fondoenc.jpg);
-
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
 }
 
 .botonWhatsApp img {
@@ -73,13 +97,17 @@ p {
     border-radius: 200px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     p {
         font-size: 0.8rem;
     }
 
-    h2 {
+    h1 {
         font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 1.7rem;
     }
 
     .borde {
@@ -88,7 +116,8 @@ p {
 
     .contenedorImg {
         display: flex;
-        justify-content: center;
+        flex-wrap: wrap;
+        gap: 0.8rem;
     }
 
 }
@@ -105,14 +134,27 @@ p {
 }
 
 @media (max-width: 505px) {
-    h2 {
+    h1 {
         font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.4rem;
     }
 
     .borde {
         padding: 0.5rem;
     }
+}
 
-    
+.iconos :hover {
+    color: #7e3cd5;
+    font-size: 1.9rem;
+    transition: all 0.5s;
+}
+
+.navHover :hover { 
+    color: #7e3cd5;
+    transition: all 0.5s;
 }
 
