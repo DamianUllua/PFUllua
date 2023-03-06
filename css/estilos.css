@@ -133,6 +133,11 @@ p {
     margin-inline: 20px;
 }
 
+.img2 {
+    width: 200px;
+    margin-inline: 20px;
+}
+
 @media (max-width: 505px) {
     h1 {
         font-size: 1.5rem;
