@@ -99,15 +99,15 @@ footer {
   margin-top: auto;
 }
 
-.redsocial {
-  display: flex;
-  justify-content: center;
-}
-
-i {
+footer i {
   color: #9972cb;
   font-size: 1.4rem;
   padding: 10px;
+}
+
+.redsocial {
+  display: flex;
+  justify-content: center;
 }
 
 h3 {

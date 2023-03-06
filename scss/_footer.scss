@@ -3,16 +3,16 @@ footer {
 	text-align: center;
 	margin-top: auto;
 }
+footer {
+	i { color: $color_1;
+	font-size: 1.4rem;
+	padding: 10px;
+}
+}
 .redsocial {
 	display: flex;
 	justify-content: center;
 }
-i {
-	color: $color_1;
-	font-size: 1.4rem;
-	padding: 10px;
-}
-
 h3 {
 	font-size: 0.7rem;
 	text-align: center;

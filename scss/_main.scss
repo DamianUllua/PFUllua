@@ -1,6 +1,10 @@
-.carru {
+@mixin margenes {
 	margin-top: 2rem;
 	margin-bottom: 2rem;
+}
+
+.carru {
+	@include margenes;
 }
 body {
 	background-color: $background-color_1;
@@ -21,8 +25,7 @@ h2 {
 	text-align: center;
 }
 p {
-	margin-top: 2rem;
-	margin-bottom: 2rem;
+	@include margenes;
 	text-align: center;
 }
 .borde {
