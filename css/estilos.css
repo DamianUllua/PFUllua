@@ -1,165 +1,155 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 @font-face {
-    font-family: always;
-    src: url(../fonts/Always.otf);
+  font-family: always;
+  src: url(../fonts/Always.otf);
 }
-
-nav {
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
-}
-
-.navlogo {
-    width: 90px;
-}
-
-.bgnavbar {
-    background-color: #9f86c0;
-
-}
-
-.redsocial {
-    display: flex;
-    justify-content: center;
-}
-
-.carru {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-
-i {
-    color: #9972cb;
-    font-size: 1.4rem;
-    padding: 10px;
-}
-
-h1 {
-    padding-top: 20px;
-    font-size: 3rem;
-    text-align: center;
-}
-
-h2 {
-    margin-top: 2rem;
-    padding-top: 20px;
-    font-size: 2.4rem;
-    text-align: center;
-}
-
-h3 {
-    font-size: 0.7rem;
-    text-align: center;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 .fontAlways {
-    font-family: always, sans-serif;
-}
-
-body {
-    background-color: #9f86c0;
-    background-image: url(../images/fondoenc.jpg);
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-
-}
-
-footer {
-    background-color: rgb(255, 220, 177);
-    text-align: center;
-    margin-top: auto;
-}
-
-p {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    text-align: center;
+  font-family: always, sans-serif;
 }
 
 .botonWhatsApp img {
-    width: 70px;
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
+  width: 70px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+nav {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.navlogo {
+  width: 90px;
+}
+
+.bgnavbar {
+  background-color: #9f86c0;
+}
+
+.navHover :hover {
+  color: #7e3cd5;
+  transition: all 0.5s;
+}
+
+.carru {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+body {
+  background-color: #9f86c0;
+  background-image: url(../images/fondoenc.jpg);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h1 {
+  padding-top: 20px;
+  font-size: 3rem;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 2rem;
+  padding-top: 20px;
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+p {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
 }
 
 .borde {
-    box-sizing: border-box;
-    background-color: #e0b1cb;
-    width: max-content;
-    padding: 1rem;
-    margin: auto;
-    border-radius: 200px;
-}
-
-@media (max-width: 768px) {
-    p {
-        font-size: 0.8rem;
-    }
-
-    h1 {
-        font-size: 2.5rem;
-    }
-
-    h2 {
-        font-size: 1.7rem;
-    }
-
-    .borde {
-        padding: 0.5rem;
-    }
-
-    .contenedorImg {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 0.8rem;
-    }
-
+  box-sizing: border-box;
+  background-color: #e0b1cb;
+  width: max-content;
+  padding: 1rem;
+  margin: auto;
+  border-radius: 200px;
 }
 
 .contenedorImg {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .img1 {
-    width: 350px;
-    height: 250px;
-    margin-inline: 20px;
+  width: 350px;
+  height: 250px;
+  margin-inline: 20px;
 }
 
 .img2 {
-    width: 200px;
-    margin-inline: 20px;
+  width: 200px;
+  margin-inline: 20px;
 }
 
-@media (max-width: 505px) {
-    h1 {
-        font-size: 1.5rem;
-    }
+footer {
+  background-color: rgb(255, 220, 177);
+  text-align: center;
+  margin-top: auto;
+}
 
-    h2 {
-        font-size: 1.4rem;
-    }
+.redsocial {
+  display: flex;
+  justify-content: center;
+}
 
-    .borde {
-        padding: 0.5rem;
-    }
+i {
+  color: #9972cb;
+  font-size: 1.4rem;
+  padding: 10px;
+}
+
+h3 {
+  font-size: 0.7rem;
+  text-align: center;
 }
 
 .iconos :hover {
-    color: #7e3cd5;
-    font-size: 1.9rem;
-    transition: all 0.5s;
+  color: #7e3cd5;
+  font-size: 1.9rem;
+  transition: all 0.5s;
 }
 
-.navHover :hover { 
-    color: #7e3cd5;
-    transition: all 0.5s;
+@media (max-width: 768px) {
+  p {
+    font-size: 0.8rem;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 1.7rem;
+  }
+  .borde {
+    padding: 0.5rem;
+  }
+  .contenedorImg {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+  }
+}
+@media (max-width: 505px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1.4rem;
+  }
+  .borde {
+    padding: 0.5rem;
+  }
 }
 
+/*# sourceMappingURL=estilos.css.map */

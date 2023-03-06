@@ -1,0 +1,26 @@
+footer {
+	background-color: $background-color_2;
+	text-align: center;
+	margin-top: auto;
+}
+.redsocial {
+	display: flex;
+	justify-content: center;
+}
+i {
+	color: $color_1;
+	font-size: 1.4rem;
+	padding: 10px;
+}
+
+h3 {
+	font-size: 0.7rem;
+	text-align: center;
+}
+.iconos {
+	& :hover {
+		color: $color_2;
+		font-size: 1.9rem;
+		transition: all 0.5s;
+	}
+}

@@ -1,0 +1,16 @@
+nav {
+	font-size: 1.2rem;
+	margin-bottom: 2rem;
+}
+.navlogo {
+	width: 90px;
+}
+.bgnavbar {
+	background-color: $background-color_1;
+}
+.navHover {
+	& :hover {
+		color: $color_2;
+		transition: all 0.5s;
+	}
+}
