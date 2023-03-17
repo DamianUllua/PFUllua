@@ -66,6 +66,12 @@ p {
   margin-top: 2rem;
   margin-bottom: 2rem;
   text-align: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+li {
+  margin-left: 1.8rem;
 }
 
 .borde {
@@ -130,6 +136,9 @@ h3 {
   }
   h2 {
     font-size: 1.7rem;
+  }
+  li {
+    font-size: 0.8rem;
   }
   .borde {
     padding: 0.5rem;
